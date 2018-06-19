@@ -1,0 +1,47 @@
+GIT COMMANDS :-
+
+-> git config --global user.name "  enter ur user name of github  "
+->git config --global user.email"  enter ur email id name of github  "
+
+   (if account already exist the follow the below commands)
+
+->git config --global user.name 
+->git config --global user.email
+
+-> to change a drive simply type - ( drivename and : ) i.e. F: or E:
+->to go to a certain file write command - cd filename or cd hello-git
+->to initialize the git  - git init 
+     [initalized empty git repository in F:/hello-git/.git/]
+->to check status of a project - git status
+->to add file for tracking - git add file_name  {for one file}
+                                        - git add .                 {for more than one file}
+->to commit the project - git commit -m "message"
+->to check versions of our project - git log
+->to get back to a specific version - git checkout versionno.
+->for updated version - git checkout master
+
+TO CREATE GITHUB REPOSITORY :-
+
+->https://github.com
+->signin
+->from navigation tab choose   '+'
+->choose create new repository
+->write reprository name and create it.
+->a new tab will open .
+->copy a link from 3rd paragraph.
+              " git remote add origin https://github.com/Mrinali/hello-git.git "
+-> paste it to git cmd. 
+    this will be done once so as to make our system and github interact each other.
+->press enter.
+->again copy the second link from repository.
+               "git push -u origin master " from repository to git cmd.
+->and press enter.
+             {this will be done once for each project. For next time follow the below commands.}
+
+->enter username in git cmd.
+->enter password in git cmd.
+                           
+
+
+
+                                   #AND THE COMMIT IS DONE TO GitHub.
